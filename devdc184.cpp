@@ -21,7 +21,7 @@ minValue({9, 2, 1, 4, 3, 9, 5})
 
 vector<int> minValueHelper(vector<int> v){
     set<int> s;
-    int presentZero = false;
+    bool presentZero = false;
     for(int i : v){
         if(i==0)
             presentZero = true;
@@ -58,4 +58,5 @@ int main(){
     cout << minValue({9, 2, 1, 4, 3, 9, 5}) << "\n";
     cout << minValue({0}) << "\n";
     cout << minValue({0,1}) << "\n";
+    cout << minValue({0,0}) << "\n";
 }
