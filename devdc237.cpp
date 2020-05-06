@@ -53,9 +53,9 @@ void testFunc(vector<int> arr, int occ){
 
 // main function
 int main(){
-	testFunc({1,1,1,1},2); // output -> 
-	testFunc({20,37,20,21},1); // output -> 
-	testFunc({1,1,3,3,7,2,2,2,2},3); // output -> 
-	testFunc({20,37,20,21},1); // output -> 
+	testFunc({1,1,1,1},2); // output -> 1 1
+	testFunc({20,37,20,21},1); // output -> 20 37 21
+	testFunc({1,1,3,3,7,2,2,2,2},3); // output -> 1 1 3 3 7 2 2 2
+	testFunc({20,37,20,21},2); // output -> 20 37 20 21
 	return 0;
 }
